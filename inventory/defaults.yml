@@ -1,0 +1,6 @@
+---
+username: kevin
+password: kevin
+connection_options:
+  netmiko:
+    port: 22

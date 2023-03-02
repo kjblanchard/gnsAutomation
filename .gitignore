@@ -1,0 +1,6 @@
+appsettings.json
+ssh.sh
+*.log
+.vscode/
+
+__pycache__/

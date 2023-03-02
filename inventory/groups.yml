@@ -1,0 +1,5 @@
+---
+access:
+  platform: ios
+  data:
+    role: access
