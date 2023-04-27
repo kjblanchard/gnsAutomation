@@ -1,6 +1,9 @@
 ---
-username: kevin
-password: kevin
+# username: kevin
+# password: kevin
 connection_options:
   netmiko:
     port: 22
+    extras:
+      fast_cli: False
+      global_delay_factor: 4

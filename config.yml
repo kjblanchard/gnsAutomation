@@ -8,6 +8,7 @@ inventory:
 
 logging:
     enabled: True
+    level: DEBUG
 
 runner:
     plugin: threaded

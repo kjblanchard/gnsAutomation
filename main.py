@@ -125,7 +125,6 @@ if (should_start):
     update_r53_record(zone, record, ip)
     external_ip = urllib.request.urlopen(
         'https://ipinfo.io/ip').read().decode('utf8')
-    print(external_ip)
     update_security_group(external_ip, security_group_id, security_group_rules)
 else:
     stop_instance(instance_id)

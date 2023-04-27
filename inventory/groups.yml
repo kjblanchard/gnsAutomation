@@ -3,3 +3,8 @@ access:
   platform: ios
   data:
     role: access
+
+telnet:
+  platform: cisco_ios_telnet
+  data:
+    role: telnet
